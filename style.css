@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #map {
+    height: 400px;
+  }
+  
+  #delivery-info {
+    padding: 20px;
+  }
+  
+  #delivery-info h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  #delivered-btn, #not-delivered-btn {
+    margin-top: 10px;
+  }
+  
+  #delivered-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #not-delivered-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  

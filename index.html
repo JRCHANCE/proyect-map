@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="map" class="mb-4"></div>
+      <div id="delivery-info">
+        <h2 class="mb-3">Proxima Entrega</h2>
+        <p id="family-name">Nombre de la Familia</p>
+        <p id="address">Dirección de Entrega</p>
+        <button id="delivered-btn" class="btn btn-success">Entregado</button>
+        <button id="not-delivered-btn" class="btn btn-danger">
+          No Entregado
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+  </body>
+</html>
